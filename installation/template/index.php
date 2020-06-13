@@ -2,7 +2,7 @@
 /**
  * @package	Joomla.Installation
  *
- * @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.
+ * @copyright  Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.
  * @license	GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -61,7 +61,6 @@ $this->addScriptOptions('system.installation', array('url' => JRoute::_('index.p
 		<!-- Header -->
 		<div class="header">
 			<img src="<?php echo $this->baseurl; ?>/template/images/joomla.png" alt="Joomla" />
-			<img src="<?php echo $this->baseurl; ?>/template/images/vm_menulogo.png" alt="VirtueMart" />
 			<hr />
 			<h5>
 				<?php // Fix wrong display of Joomla!® in RTL language ?>
